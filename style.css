@@ -140,7 +140,7 @@ header.sticky ul li a {
 }
 
 .contentBox h3 {
-	font-size: 24px;
+	font-size: 1.5em;
 	margin-bottom: 10px;
 }
 
@@ -186,13 +186,18 @@ img {
 }
 
 .skills .content .skillsBox h2 {
-	font-size: 20px;
+	font-size: 2em;
+	font-weight: 600;
+}
+
+.projects .content .projectBox h2 {
+	font-size: 2em;
 	font-weight: 600;
 }
 
 .projects .content {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
 }
 
@@ -221,7 +226,7 @@ img {
 .formBox form h3,
 .contactInfo h3 {
 	color: #fff;
-	font-size: 20px;
+	font-size: 1.5em;
 	font-weight: 500;
 	margin-bottom: 10px;
 }
@@ -299,6 +304,10 @@ img {
 	color: #fff;
 	text-align: center;
 	padding: 10px;
+}
+
+.fa-twitter-square, .fa-linkedin, .fa-github-square  {
+	color: #fff;
 }
 
 /* Responsive */
@@ -393,7 +402,7 @@ img {
 	}
 
 	.contentBox h3 {
-		font-size: 20px;
+		font-size: 1em;
 		margin-bottom: 10px;
 	}
 
