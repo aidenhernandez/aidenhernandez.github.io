@@ -18,9 +18,9 @@ a:hover{color:#211f1c}
 </helmet>
 
 <div style="background:#faf9f6;color:#211f1c">
-  <div style="display:flex;justify-content:space-between;align-items:center;padding:28px 64px;max-width:960px;margin:0 auto">
+  <div style="display:flex;justify-content:space-between;align-items:center;padding:24px clamp(20px,5vw,64px);max-width:960px;margin:0 auto;flex-wrap:wrap;gap:16px">
     <div style="font-family:'Source Serif 4',serif;font-size:19px;font-weight:600">Adan Hernandez</div>
-    <div style="display:flex;gap:32px;font-size:14px;color:#565349">
+    <div style="display:flex;gap:clamp(16px,3vw,32px);font-size:14px;color:#565349;flex-wrap:wrap">
       <a href="#solutions" style="color:#565349">Solutions</a>
       <a href="#impact" style="color:#565349">Impact</a>
       <a href="#process" style="color:#565349">Process</a>
@@ -28,23 +28,23 @@ a:hover{color:#211f1c}
     </div>
   </div>
 
-  <div style="max-width:960px;margin:0 auto;padding:64px 64px 88px">
+  <div style="max-width:960px;margin:0 auto;padding:clamp(40px,8vw,64px) clamp(20px,5vw,64px) clamp(56px,10vw,88px)">
     <div style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:oklch(55% 0.12 258);font-weight:600;margin-bottom:20px">Fullstack Engineer · Stockholm, SE</div>
-    <h1 style="font-family:'Source Serif 4',serif;font-size:56px;line-height:1.1;font-weight:500;margin:0 0 28px;letter-spacing:-.01em">Whatever the system, I can learn it, build it, and ship it.</h1>
+    <h1 style="font-family:'Source Serif 4',serif;font-size:clamp(34px,6vw,56px);line-height:1.1;font-weight:500;margin:0 0 28px;letter-spacing:-.01em">Whatever the system, I can learn it, build it, and ship it.</h1>
     <p style="font-size:19px;line-height:1.6;color:#4a473f;max-width:660px;margin:0 0 36px">5+ years across enterprise platforms, healthcare software, and small business websites. I pick up new stacks fast, I'm comfortable owning a problem end to end, and I work just as well building your company's first website as I do fixing a system six clients already depend on.</p>
-    <div style="display:flex;gap:14px">
+    <div style="display:flex;gap:14px;flex-wrap:wrap">
       <a href="#contact" style="background:#211f1c;color:#faf9f6;padding:14px 28px;border-radius:4px;font-size:15px;font-weight:600">Hire me full-time</a>
       <a href="#contact" style="border:1px solid #c9c6bc;color:#211f1c;padding:14px 28px;border-radius:4px;font-size:15px;font-weight:600">Book a freelance project</a>
     </div>
   </div>
 
-  <div id="solutions" style="background:#f2f0ea;padding:80px 64px;scroll-margin-top:24px">
+  <div id="solutions" style="background:#f2f0ea;padding:clamp(48px,8vw,80px) clamp(20px,5vw,64px);scroll-margin-top:24px">
     <div style="max-width:960px;margin:0 auto">
       <div style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:oklch(55% 0.12 258);font-weight:600;margin-bottom:16px">What I solve</div>
       <h2 style="font-family:'Source Serif 4',serif;font-size:34px;font-weight:500;margin:0 0 12px">Big or small, new or familiar</h2>
       <p style="font-size:16px;color:#565349;margin:0 0 48px;max-width:640px">From replacing enterprise systems to standing up a new business's first website — the same care and speed either way.</p>
 
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:40px 48px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:40px 48px">
         <div style="border-top:1px solid #d8d5cb;padding-top:24px">
           <h3 style="font-size:19px;font-weight:600;margin:0 0 10px">Websites &amp; small business builds</h3>
           <p style="font-size:15px;line-height:1.6;color:#565349;margin:0 0 14px">A clean, fast website with a CMS you can actually update yourself — landing pages, email capture, the works.</p>
@@ -69,10 +69,10 @@ a:hover{color:#211f1c}
     </div>
   </div>
 
-  <div id="impact" style="max-width:960px;margin:0 auto;padding:80px 64px;scroll-margin-top:24px">
+  <div id="impact" style="max-width:960px;margin:0 auto;padding:clamp(48px,8vw,80px) clamp(20px,5vw,64px);scroll-margin-top:24px">
     <div style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:oklch(55% 0.12 258);font-weight:600;margin-bottom:16px">Track record</div>
     <h2 style="font-family:'Source Serif 4',serif;font-size:34px;font-weight:500;margin:0 0 40px">Impact, in numbers</h2>
-    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:32px">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:32px">
       <div><div style="font-family:'Source Serif 4',serif;font-size:40px;font-weight:600;margin-bottom:8px">3</div><div style="font-size:14px;color:#565349">industries — aviation, healthcare, consumer brands</div></div>
       <div><div style="font-family:'Source Serif 4',serif;font-size:40px;font-weight:600;margin-bottom:8px">40%</div><div style="font-size:14px;color:#565349">traffic lift on a small business site</div></div>
       <div><div style="font-family:'Source Serif 4',serif;font-size:40px;font-weight:600;margin-bottom:8px">100%</div><div style="font-size:14px;color:#565349">connectivity reliability, up from 50%</div></div>
@@ -80,11 +80,11 @@ a:hover{color:#211f1c}
     </div>
   </div>
 
-  <div id="process" style="background:#f2f0ea;padding:80px 64px;scroll-margin-top:24px">
+  <div id="process" style="background:#f2f0ea;padding:clamp(48px,8vw,80px) clamp(20px,5vw,64px);scroll-margin-top:24px">
     <div style="max-width:960px;margin:0 auto">
       <div style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:oklch(55% 0.12 258);font-weight:600;margin-bottom:16px">How I work</div>
       <h2 style="font-family:'Source Serif 4',serif;font-size:34px;font-weight:500;margin:0 0 40px">Comfortable dropping into anything</h2>
-      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:40px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:40px">
         <div><div style="font-family:'Source Serif 4',serif;font-size:15px;color:oklch(55% 0.12 258);font-weight:600;margin-bottom:10px">01 — Learn the system fast</div><p style="font-size:15px;line-height:1.6;color:#565349;margin:0">New codebase, new stack, new domain — I get oriented quickly and start contributing within days, not months.</p></div>
         <div><div style="font-family:'Source Serif 4',serif;font-size:15px;color:oklch(55% 0.12 258);font-weight:600;margin-bottom:10px">02 — Right-size the solution</div><p style="font-size:15px;line-height:1.6;color:#565349;margin:0">A simple site doesn't need enterprise architecture, and an enterprise system can't run on a template. I match the build to the problem.</p></div>
         <div><div style="font-family:'Source Serif 4',serif;font-size:15px;color:oklch(55% 0.12 258);font-weight:600;margin-bottom:10px">03 — Hand off something you can own</div><p style="font-size:15px;line-height:1.6;color:#565349;margin:0">Documented, tested, and built so you're not dependent on me to keep it running.</p></div>
@@ -92,10 +92,10 @@ a:hover{color:#211f1c}
     </div>
   </div>
 
-  <div style="max-width:960px;margin:0 auto;padding:80px 64px">
+  <div style="max-width:960px;margin:0 auto;padding:clamp(48px,8vw,80px) clamp(20px,5vw,64px)">
     <div style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:oklch(55% 0.12 258);font-weight:600;margin-bottom:16px">Toolkit</div>
     <h2 style="font-family:'Source Serif 4',serif;font-size:34px;font-weight:500;margin:0 0 32px">Skills &amp; stack</h2>
-    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:32px">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px">
       <div><div style="font-weight:600;font-size:14px;margin-bottom:10px;color:#211f1c">Languages</div><div style="font-size:15px;color:#565349;line-height:1.8">JavaScript, TypeScript, Python, HTML5, CSS3, PostgreSQL</div></div>
       <div><div style="font-weight:600;font-size:14px;margin-bottom:10px;color:#211f1c">Frameworks</div><div style="font-size:15px;color:#565349;line-height:1.8">React, React Native (Expo), Node.js</div></div>
       <div><div style="font-weight:600;font-size:14px;margin-bottom:10px;color:#211f1c">Cloud &amp; CI/CD</div><div style="font-size:15px;color:#565349;line-height:1.8">AWS Lambda, API Gateway, S3, GitLab CI/CD</div></div>
@@ -103,7 +103,7 @@ a:hover{color:#211f1c}
     </div>
   </div>
 
-  <div id="contact" style="max-width:960px;margin:0 auto;padding:80px 64px 96px;text-align:center;scroll-margin-top:24px">
+  <div id="contact" style="max-width:960px;margin:0 auto;padding:clamp(48px,8vw,80px) clamp(20px,5vw,64px) clamp(56px,10vw,96px);text-align:center;scroll-margin-top:24px">
     <h2 style="font-family:'Source Serif 4',serif;font-size:36px;font-weight:500;margin:0 0 16px">Big system, small site, or something new — let's talk.</h2>
     <p style="font-size:16px;color:#565349;margin:0 0 32px">Open to full-time roles and select freelance projects.</p>
     <div style="display:flex;gap:24px;justify-content:center;font-size:15px;font-weight:600;flex-wrap:wrap">
